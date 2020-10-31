@@ -9,7 +9,7 @@ const About = () => {
         <div className="about text-white">
             <Header></Header>
             <div className='text-center'>
-                <h1 style={{paddingTop: "100px"}}>LET ME INTRODUCE MYSELF</h1>
+                <h1 style={{paddingTop: "100px"}}>LET ME <span className='text-success'>INTRODUCE MYSELF</span></h1>
             </div>
             <div className='row'>
                 <div className="col-md-3">
@@ -22,12 +22,12 @@ const About = () => {
             </div>
                 <div className='ml-5 mt-3'>
                     <h1>IMRAN KHAN</h1>
-                    <h2>WEB DEVELOPER</h2>
+                    <h2 className='text-success'>WEB DEVELOPER</h2>
                 </div>
             <div class="row ml-5 mt-5">
                 <div class="col-md-5">
                     <div style={{fontSize: '20px', height: '322px'}} class="card bg-dark p-3">
-                    <h2>PERSONAL INFO</h2>
+                    <h2 className='text-success'>PERSONAL INFO</h2>
                        <p><b>Name</b>    : Imran Khan</p>
                        <p>Bsc in Computer Science & Engineering</p>
                        <p>Begum Rokeya University, Rangpur</p>
@@ -37,7 +37,7 @@ const About = () => {
                 </div>
                 <div class="col-md-5 ml-5">
                     <div style={{fontSize: '20px'}} class="card bg-dark p-3">
-                        <h2>SKILL</h2>
+                        <h2 className='text-success'>SKILL</h2>
                         <p><b>Web</b> : Javascript, ES6, React, React Router, NodeJs, HTML, CSS, Bootstrap, Material UI, REST API</p>
                         <p><b>Database</b> : MongoDB, Express JS, Firebase</p>
                         <p><b>Tools</b> : Git, Netlify, VS Code, Firebase, Heroku, Figma, Chrome Dev Tools, NPM</p>

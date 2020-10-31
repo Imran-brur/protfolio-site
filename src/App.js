@@ -11,6 +11,7 @@ import Home from './components/Home/Home/Home';
 import Project from './components/Project/Project';
 import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import Header from './components/Sheared/Header/Header';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Blog></Blog>
         </Route>
         <Route path='/contactMe'>
+        <Header></Header>
           <Contact></Contact>
         </Route>
       </Switch>

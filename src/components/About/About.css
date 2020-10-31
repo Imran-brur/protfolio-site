@@ -1,0 +1,14 @@
+.about {
+    background-image: url('/src/images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160vh;
+    opacity: .9;
+}
+@media screen and (max-width: 768px) {
+    .about {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+}

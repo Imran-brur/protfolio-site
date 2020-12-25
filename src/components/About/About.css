@@ -1,14 +1,9 @@
 .about {
-    background-image: url('/src/images/bg2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 160vh;
-    opacity: .9;
+   background-color: rgb(245, 212, 219);
 }
 @media screen and (max-width: 768px) {
-    .about {
-        height: 100%;
-        width: 100%;
-        background-size: cover;
+    .skill {
+       
+        margin-top: 30px;
     }
 }

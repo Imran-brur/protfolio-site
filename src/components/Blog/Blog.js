@@ -3,7 +3,7 @@ import Header from '../Sheared/Header/Header';
 
 const Blog = () => {
     return (
-        <div className='home text-white text-center'>
+        <div className='home text-white text-center container'>
             <Header></Header>
             <h1>Blog is not available</h1>
         </div>

@@ -1,52 +1,42 @@
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
-            <div class="fixed-top text-center">   
-            <nav class="navbar navbar-dark">
-                <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <div className='container' style={{fontSize: '18px'}}>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <h2 className='text-dark'>IMRAN <span style={{color: 'orangered'}}>X</span></h2>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-dark"></span>
                 </button>
-            </nav>
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div style={{opacity: .8}} class="bg-white p-2">
-                <ul style={{fontSize: '20px'}} class="navbar-nav">
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-center">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/home">
-                        HOME
-                        </a>
+                        <Link className="nav-link text-dark mr-5" to="/home">HOME</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">
-                        ABOUT ME
-                        </a>
+                        <Link className="nav-link text-dark mr-5" to="/about">ABOUT</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/projects">
-                        PROJECTS                           
-                         </a>
+                        <Link className="nav-link text-dark mr-5" to="/projects">PROJECTS</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/blogs">
-                        Blog
-                            </a>
-                    </li>
+                        <Link className="nav-link text-dark mr-5" to="/blogs">BLOGS</Link>
+                    </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="/contactMe">
-                        CONTACT ME
-                            </a>
+                        <Link className="nav-link text-dark mr-5" to="/ContactMe">CONTACT</Link>
                     </li>
                     <li class="nav-item">
                         <a href="https://drive.google.com/u/0/uc?id=1HjJRaRGZoMC6HqCBGtKw1OlBjJGAOZWI&export=download"  rel="noopener noreferrer" target="_blank">
-                            <button class="btn btn-outline-success">DOWNLOAD RESUME</button>
+                            <button class="btn btn-outline-dark mr-5">RESUME</button>
                         </a>  
-                    </li>
-                </ul>
-                </div>
-            </div>
-            </div>
+                    </li>            
+                    </ul>
+                </div>          
+            </nav>
         </div>
+        
     );
 };
 

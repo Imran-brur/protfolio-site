@@ -7,7 +7,7 @@ import './Project.css';
 
 const Project = () => {
     return (
-        <div className="project">
+        <div className="project container">
             <Header></Header>
             <div style={{paddingTop: '200px'}} class="d-flex justify-content-center row">
                 <div className='col-12'>
